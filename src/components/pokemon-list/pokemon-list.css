@@ -1,0 +1,34 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(2, auto);   
+    gap: 2rem;
+    padding: 2rem;
+    justify-items: center;
+    align-items: start;
+}
+
+.card {
+  background: linear-gradient(to bottom, white 70%, black 72%);
+  border-radius: 10px;
+  padding: 0.8rem;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+#list-area {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.7em;
+}

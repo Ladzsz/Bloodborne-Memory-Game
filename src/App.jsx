@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Header  from './components/Header/header.jsx'
 import Pokemonlist from './components/pokemon-list/pokemon-list.jsx';
+import shuffleArray from './utils/shuffle.js';
 
 function App() {
   //creating state to hold scores
@@ -12,7 +13,11 @@ function App() {
   return (
     <>
       <Header score={score} bestScore={bestScore} />
-      <Pokemonlist />
+      <Pokemonlist score={score}
+        bestScore={bestScore}
+        setScore={setScore}
+        setBestScore={setBestScore}
+        shuffleArray={shuffleArray}/>
     </>
   )
 }

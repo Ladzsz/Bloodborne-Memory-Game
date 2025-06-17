@@ -6,4 +6,4 @@ ENJOY!
 
 
 #Play Game Below!  
-[Pokemon Memory Game](lad-pokemon-memory.netlify.app)
+[Pokemon Memory Game](https://lad-pokemon-memory.netlify.app)

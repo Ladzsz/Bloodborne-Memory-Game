@@ -53,10 +53,12 @@ function Pokemonlist({score, bestScore, setScore, setBestScore}) {
         setBestScore(newScore);
       }
 
-      if (newScore === 12) {
+      if (newScore % 12 === 0) {
       const restart = window.confirm("Winner! Restart?");
       if (restart) {
         window.location.reload();
+        return;
+      } else {
         return;
       }
     }

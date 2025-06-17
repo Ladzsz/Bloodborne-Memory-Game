@@ -5,5 +5,5 @@ See if your memory is amazing or if its some Mid memory!
 ENJOY!
 
 
-#Play Game Below!
-#lad-pokemon-memory.netlify.app
+#Play Game Below!  
+lad-pokemon-memory.netlify.app

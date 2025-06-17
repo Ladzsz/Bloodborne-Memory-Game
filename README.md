@@ -6,4 +6,4 @@ ENJOY!
 
 
 #Play Game Below!
-lad-pokemon-memory.netlify.app
+#lad-pokemon-memory.netlify.app

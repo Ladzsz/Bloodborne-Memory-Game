@@ -54,13 +54,9 @@ function Pokemonlist({score, bestScore, setScore, setBestScore}) {
       }
 
       if (newScore % 12 === 0) {
-      const restart = window.confirm("Winner! Restart?");
-      if (restart) {
-        window.location.reload();
-        return;
-      } else {
-        return;
-      }
+      alert("Winner! starting new game.");
+      window.location.reload();
+      return;
     }
 
     setClickedIds(prev => [...prev, id]);

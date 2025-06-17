@@ -10,3 +10,47 @@ h1 {
 p {
     font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+  /* Styles for phones */
+  #header-top {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #score-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h1 {
+    font-size: 2.2em;
+    text-align: center;
+  }
+
+  header > p {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for tablets */
+  #header-top {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #score-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  h1 {
+    font-size: 2.2em;
+    text-align: center;
+  }
+
+  header > p {
+    text-align: center;
+  }
+}

@@ -45,7 +45,7 @@ function Pokemonlist({score, bestScore, setScore, setBestScore}) {
     if (clickedIds.includes(id)) {
       setScore(0);
       setClickedIds([]);
-      alert("LOSER! Same Pokemon clicked twice, Dont give up!\n\n                           Returning score to zero...");
+      alert("LOSER! Same Pokemon clicked twice, Dont give up!\n\nReturning score to zero...");
     } else {
       const newScore = score + 1;
       setScore(newScore);

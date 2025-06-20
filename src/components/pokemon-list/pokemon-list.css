@@ -50,3 +50,18 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media (min-width: 1024px) and (max-width: 1500px) {
+  /* Styles for most laptops */
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1501px) and (max-width: 2559px) {
+  /* Styles for most laptops */
+  .card-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
